@@ -1,10 +1,10 @@
 cargo-features = ["default-run"]
 
 [package]
-authors = ["Philipp Oppermann <dev@phil-opp.com>"]
+authors = ["Roman Shulenkov postmaster@mcu.by"]
 categories = ["embedded", "no-std"]
 license = "MIT OR Apache-2.0"
-name = "stm32f7-discovery"
+name = "stm32f7_discovery"
 version = "0.1.0"
 edition = "2018"
 default-run = "polling"

@@ -2,7 +2,6 @@
 target = "thumbv7em-none-eabihf"
 
 [target.thumbv7em-none-eabihf]
-runner = "./gdb.sh"
 rustflags = [
   "-C", "link-arg=-Tlink.x",
   "-C", "linker=rust-lld",
